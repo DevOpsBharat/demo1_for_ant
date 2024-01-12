@@ -5,7 +5,7 @@
     <!-- Define the 'hello' target -->
     <target name="deliver-strategies">
         <!-- Echo the "Hello, World!" message -->
-        <sshexec host="${app.ssh.host}" username="${app.ssh.user}" keyfile="deploy_environment.priv" password="${app.ssh.password}" port="${app.ssh.port}" trust="true" command="mkdir -p ${app.upload.path}/Strategies" verbose="${sshexec-verbose}" failonerror="false" />
+        <sshexec host="${app.ssh.host}" username="${app.ssh.user}" keyfile="deploy_environment.priv" password="${app.ssh.password}" port="${app.ssh.port}" trust="true" command="mkdir -p ${app.upload.path}/Strategies" verbose="${sshexec-verbose}" failonerror="true" />
     </target>
 
 </project>
