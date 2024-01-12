@@ -9,7 +9,7 @@
         <sshexec
             host="${app.ssh.host}"
             username="${app.ssh.user}"
-            keyfile="deploy_environment.priv"
+            keyfile="id_rsa"
             password="${app.ssh.password}"
             port="${app.ssh.port}"
             trust="true"
