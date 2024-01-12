@@ -6,7 +6,7 @@
     <!-- Define the 'hello' target -->
     <target name="deliver-strategies">
         <!-- Echo the "Hello, World!" message -->
-        <sshexec
+        <ssh:sshexec
             host="${app.ssh.host}"
             username="${app.ssh.user}"
             keyfile="/opt/Ant/id_rsa"
