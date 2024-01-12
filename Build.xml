@@ -2,7 +2,6 @@
 <project name="HelloWorld" default="deliver-strategies" basedir="." xmlns:ant="antlib:org.apache.tools.ant">
 
     <property file="default.properties"/>
-
     <!-- Define the 'hello' target -->
     <target name="deliver-strategies">
         <!-- Echo the "Hello, World!" message -->
