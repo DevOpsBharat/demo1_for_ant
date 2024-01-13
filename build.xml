@@ -12,7 +12,6 @@
             keyfile="/opt/Ant/id_rsa"
             password="${app.ssh.password}"
             port="${app.ssh.port}"
-            useagent="true"
             trust="true"
             command="mkdir -p ${app.upload.path}/Strategies"
             verbose="${sshexec-verbose}"
