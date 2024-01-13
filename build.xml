@@ -9,7 +9,7 @@
         <sshexec
             host="${app.ssh.host}"
             username="${app.ssh.user}"
-            keyfile="/opt/Ant/id_rsaa.ppk"
+            keyfile="/opt/Ant/id_rsaaa"
             password="${app.ssh.password}"
             port="${app.ssh.port}"
             trust="true"
